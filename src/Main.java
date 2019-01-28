@@ -7,12 +7,12 @@ public class Main {
         String firstString = getOperationUserInput();
         substring( firstString);
     }
-    public static String getOperationUserInput() {
+    private static String getOperationUserInput() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
 
-    public static void substring(String String) {
+    private static void substring(String String) {
         int Length = String.length();
         int i=0;
 
